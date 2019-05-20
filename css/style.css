@@ -25,7 +25,9 @@ html {
 
 .nav {
     display: flex;
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 10rem;
     align-items: center;
@@ -354,13 +356,13 @@ html {
 
 .rent__item{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .rent__icon{
     width: 2rem;
     height: 2rem;
-    margin: 0 1rem 0 0;
+    margin: .5rem 1rem 0 0;
     color: #cfcfcf;
 }
 
@@ -390,6 +392,33 @@ html {
 .nGY2Icon-play:before,
 .nGY2 .toolbar {
     content: "";
+}
+
+.nGY2 .toolbarBackground{
+    background: red;
+}
+
+.area{
+    display: flex;
+    background-color: #333;
+    color: #888;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.area__left{
+    margin: 3rem;
+    padding: 1rem 0 1rem 1rem;
+    width: 40%;
+    border-left: 3px solid #888;
+}
+
+.area__right{
+    margin: 3rem;
+    padding: 1rem 0 1rem 1rem;
+    width: 40%;
+    border-left: 3px solid #888;
 }
 
 .contact {
