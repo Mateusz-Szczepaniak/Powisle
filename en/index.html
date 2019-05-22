@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Powisle - Exclusive Warsaw centre apartment</title>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon"> 
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Ubuntu:400,500,700&amp;subset=latin-ext" rel="stylesheet" />
         <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="../css/style.css" />
@@ -18,20 +18,36 @@
                     <p class="nav__logo-text">.Powisle</p>
                     <p class="nav__logo-subtext">Apartment</p>
                 </div>
-                
             </div>
             <div class="nav__phone">
-                    <a class="nav__phone-link" href="tel:+48602750500">tel. +48 602 750 500</a>
-                </div>
+                <a class="nav__phone-link" href="tel:+48602750500">tel. +48 602 750 500</a>
+            </div>
             <ul class="nav__menu">
                 <li class="nav__item"><a class="nav__link" href="#about">Information</a></li>
                 <li class="nav__item"><a class="nav__link" href="#price">Prices</a></li>
                 <li class="nav__item"><a class="nav__link" href="#gallery">Gallery</a></li>
                 <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
-                <li class="nav__item"><a class="nav__link" href="../"><img  class="nav__link--flag" src="../img/poland-icon.jpg" alt=""></a></li>
-                
+                <li class="nav__item">
+                <a class="nav__link" href="../"><img class="nav__link--flag" src="../img/poland-icon.jpg" alt=""/></a>
+                </li>
             </ul>
-            
+            <div class="nav__mobile">
+                    <nav role="navigation">
+                        <div id="menuToggle">
+                            <input type="checkbox" />
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <ul id="menu">
+                                <a href="#about"><li>Informacje</li></a>
+                                <a href="#price"><li>Cennik</li></a>
+                                <a href="#gallery"><li>Galeria</li></a>
+                                <a href="#contact"><li>Kontakt</li></a>
+                            </ul>
+                        </div>
+                    </nav>
+                    <a class="nav__link2" href="../"><img class="nav__link--flag2" src="../img/poland-icon.jpg" alt=""/></a>
+                </div>
         </nav>
         <header class="hero">
             <div class="hero__social">
@@ -42,6 +58,7 @@
                 <h1 class="hero__heading"><span class="hero__heading--size">Exclusive</span> Warsaw<br />centre apartment<br />for rent</h1>
                 <div class="hero__btn">
                     <a class="hero__btn-link" href="#about">See more &#10141;</a>
+                    <a class="nav__phone-link2" href="tel:+48602750500">tel: +48 602 750 500</a>
                 </div>
             </div>
         </header>
@@ -100,9 +117,9 @@
             <div class="description__box">
                 <h2 class="description__title">A few words about <span class="description__title--size">Apartment</span></h2>
                 <p class="description__text">
-                        The warm colors and modern finish of the apartment creates a friendly atmosphere.<br />
-                        The apartment is located on the 6th floor of the building, and the large windows provide a view of downtown Warsaw, including the Palace of Culture.<br />
-                        The TV has access to cable television with TV programs in Polish and English. In total, the apartment has 8 beds for adults or children.
+                    The warm colors and modern finish of the apartment creates a friendly atmosphere.<br />
+                    The apartment is located on the 6th floor of the building, and the large windows provide a view of downtown Warsaw, including the Palace of Culture.<br />
+                    The TV has access to cable television with TV programs in Polish and English. In total, the apartment has 8 beds for adults or children.
                     <br /><br />
                     The apartment consists of several rooms:
                 </p>
@@ -121,16 +138,17 @@
             <div class="rent__price">
                 <h2 class="h2-title">Rental prices</h2>
                 <p class="rent-text rent-text--size">
-                    1-3 nights: PLN 1.000 / night<br />
+                    1-3 nights: 1.000 PLN / night<br />
                     <br />
-                    4-7 nights: PLN 900 / night<br /><br />
+                    4-7 nights: 900 PLN / night<br /><br />
                 </p>
                 <p class="rent-text--size2">
-                    Longer stays - please contact us<br /> <br>
+                    Longer stays - please contact us<br />
+                    <br />
                 </p>
                 <p class="rent-text">
-                        One time fee for the preparation of the apartment - PLN 250
-                    </p>
+                    One time fee for the preparation of the apartment - 250 PLN
+                </p>
             </div>
             <div class="rent__rules">
                 <h2 class="h2-title">Rental rules</h2>
@@ -260,7 +278,7 @@
                     <div>
                         <p class="contact__text">Email</p>
                         <a class="contact__subtext" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%65%7A%63%7A%79%7A%6E%61%40%6F%6E%65%74%2E%70%6C">
-                                <span class="e-mail" data-user="anzyzczem" data-website="lp.teno"></span>
+                            <span class="e-mail" data-user="anzyzczem" data-website="lp.teno"></span>
                         </a>
                     </div>
                 </div>
@@ -269,7 +287,7 @@
         <footer class="footer">
             <p class="footer__text">Copyright &copy; 2019 Powisle Apartament. All rights reserved. | Designed by <a class="footer__link" href="#">Mateusz Szczepaniak</a></p>
         </footer>
-        
+
         <!-- <script type='text/javascript'>
 window.onload = function() {
 
