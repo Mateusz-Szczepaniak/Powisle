@@ -43,7 +43,7 @@ function redirect(actuallang){
   var url ='/';
   switch(actuallang){
     case 'pl':
-      url ='/';
+      url ='./';
       break;
     case 'en':
       url ='./en';
