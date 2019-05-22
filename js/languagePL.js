@@ -46,7 +46,7 @@ function redirect(actuallang){
       url ='/';
       break;
     case 'en':
-      url ='/en';
+      url ='./en';
       break;
   }
   window.location.replace(url);
